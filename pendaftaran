@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form pendaftaran kartu kesehatan</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+</head>
+<body>
+	<div class="kotak_daftar">
+	<div class="judul">FORM PENDAFTARAN KARTU KESEHATAN<br><br></div>
+	<div style="cursor:auto"></div>
+	<form method="post" action="simpan.php">
+		<table class="table" >
+		<tr>
+			<td>Nama Lengkap</td>
+			<td><input name="nama" type="text" id="nama"></td>
+		</tr>
+
+		<tr>
+			<td>Alamat</td>
+			<td><input name="alamat" type="text" id="alamat"></td>
+		</tr>
+
+		<tr>
+			<td>Tanggal Lahir</td>
+			<td><input name="tl" type="date" id="tl"></td>
+		</tr>
+
+		<tr>
+			<td>Nik</td>
+			<td><input name="nik" type="text" id="nik"></td>
+		</tr>
+
+		<tr>
+			<td>&nbsp;</td>
+			<td><input type="submit" name="submit" value="simpan"><input type="reset" name="submit2" value="batal"></td>
+		</tr>
+		</table>
+	</form>
+</body>
+</html>
