@@ -1,0 +1,11 @@
+?php
+include 'koneksi.php';
+	$nama =$_POST['nama'];
+	$alamat =$_POST['alamat'];
+	$tl =$_POST['tl'];
+	$nik =$_POST['nik'];
+
+	$query="INSERT INTO pendaftaran SET nama='$nama', alamat='$alamat', tl='$tl', nik='$nik'";
+	mysqli_query($koneksi,$query);
+ 
+  ?>
